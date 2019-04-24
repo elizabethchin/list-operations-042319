@@ -174,12 +174,10 @@ def replace_third_and_last(input_list):
 
 
 def replace_middle(input_list):
-    """Replace all elements of a list but the first and last two with 42 and 37.""Replace all elements of a list but the first and last two with 42 and 37.
+    """Replace all elements of a list but the first and last two with 42 and 37.
 
     After the replacement, 42 and 37 should appear in that order in input_list.
-""Replace all elements of a list but the first and last two with 42 and 37.
 
-    After the replacement, 42 and 37 should appear in that order in input_list.
 
     Return nothing.
 
@@ -189,39 +187,11 @@ def replace_middle(input_list):
     >>> replace_middle(multiples)
     >>> multiples == [0, 3, 42, 37, 24, 27]
     True
-    Return nothing.
 
-    For example:
-
-    >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
-    >>> replace_middle(multiples)
-    >>> multiples == [0, 3, 42, 37, 24, 27]
-    True
-
-    After the replacement, 42 and 37 should appear in that order in input_list.
-""Replace all elements of a list but the first and last two with 42 and 37.
-
-    After the replacement, 42 and 37 should appear in that order in input_list.
-
-    Return nothing.
-
-    For example:
-
-    >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
-    >>> replace_middle(multiples)
-    >>> multiples == [0, 3, 42, 37, 24, 27]
-    True
-    Return nothing.
-
-    For example:
-
-    >>> multiples = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27]
-    >>> replace_middle(multiples)
-    >>> multiples == [0, 3, 42, 37, 24, 27]
-    True
 
     """
 
+    input_list[2:-2]=[42,37]
     pass
 
 
@@ -252,8 +222,9 @@ def delete_middle(input_list):
     >>> notes == ['Do', 'Re', 'Ti', 'Do']
     True
 
-    """
 
+    """
+    del input_list[3:7]
     pass
 
 
