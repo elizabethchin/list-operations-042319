@@ -97,7 +97,7 @@ def last_five(input_list):
 
     """
 
-    return last_five[-1:-6]
+    return input_list[-5:]
 
 
 def middle(input_list):
@@ -153,7 +153,7 @@ def replace_head(input_list):
     True
 
     """
-
+    input_list[0] = 42
     pass
 
 
